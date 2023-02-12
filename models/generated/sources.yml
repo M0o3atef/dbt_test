@@ -1,0 +1,14 @@
+version: 2
+sources:
+- name: public
+  quoting:
+    database: true
+    schema: false
+    identifier: false
+  tables:
+  - name: _airbyte_raw_addresses
+  - name: _airbyte_raw_customers
+  - name: _airbyte_raw_geom
+  - name: _airbyte_raw_orders
+  - name: _airbyte_raw_products
+  - name: _airbyte_raw_products_on_hand
