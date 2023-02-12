@@ -20,6 +20,7 @@ packages-install-path: /dbt
 clean-targets:
 - build
 - dbt_modules
+modules-path: "../dbt_modules"
 quoting:
   database: true
   schema: false
