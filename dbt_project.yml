@@ -17,6 +17,7 @@ macro-paths:
 target-path: ../build
 log-path: ../logs
 packages-install-path: /dbt
+modules-path: ../dbt_modules
 clean-targets:
 - build
 - dbt_modules
@@ -24,7 +25,6 @@ quoting:
   database: true
   schema: false
   identifier: true
-packages-install-path: '../dbt_packages'
 models:
   airbyte_utils:
     +materialized: table
