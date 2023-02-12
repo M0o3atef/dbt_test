@@ -24,6 +24,7 @@ quoting:
   database: true
   schema: false
   identifier: true
+packages-install-path: '../dbt_packages'
 models:
   airbyte_utils:
     +materialized: table
