@@ -33,6 +33,6 @@ select
     {{ current_timestamp() }} as _airbyte_normalized_at,
     _airbyte_customers_hashid
 from {{ ref('customers_ab3') }}
--- customers from {{ source('public', '_airbyte_raw_customers ') }}
+-- customers from {{ source('public', '_airbyte_raw_customers') }}
 where 1 = 1
 
