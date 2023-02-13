@@ -11,7 +11,7 @@ select
     cast(email as {{ dbt_utils.type_string() }}) as email,
     cast(last_name as {{ dbt_utils.type_string() }}) as last_name,
     cast(first_name as {{ dbt_utils.type_string() }}) as first_name,
-    cast(concat(first_name, ' ', last_name) as {{ dbt_utils.type_string() }}) as full_name
+    cast(concat(first_name, ' ', last_name) as {{ dbt_utils.type_string() }}) as full_name,
     _airbyte_ab_id,
     _airbyte_emitted_at,
     {{ current_timestamp() }} as _airbyte_normalized_at 
