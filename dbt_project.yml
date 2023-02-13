@@ -69,7 +69,4 @@ vars:
     customers_ab2: public._airbyte_raw_customers
     customers_ab3: public._airbyte_raw_customers
     customers: public._airbyte_raw_customers
-    addresses_ab1: public._airbyte_raw_addresses
-    addresses_ab2: public._airbyte_raw_addresses
-    addresses_ab3: public._airbyte_raw_addresses
     addresses: public._airbyte_raw_addresses
